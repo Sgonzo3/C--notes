@@ -41,3 +41,21 @@
      var challenge = " Text processing in C# is really great!  ";
      challenge.Trim().Substring(24,challenge.trim().length - 25).ToUpper().Trim()
 ```
+- Concatenation
+    - + will concatenate two strings
+    - StringBuilder
+    ```cs
+    var sb = new StringBuilder();
+    sb.Append("It was the best of times, it was the worst of times");
+    sb.Append("It was the age of wisdom");
+    sb.Append("It was the age of foolishness");
+    sb.ToString()
+
+    var sb = new StringBuilder();
+    sb.AppendLine("It was the best of times, it was the worst of times");
+    sb.AppendLine("It was the age of wisdom");
+    sb.AppendLine("It was the age of foolishness");
+    sb.ToString()
+    ```
+- String formatters
+    
