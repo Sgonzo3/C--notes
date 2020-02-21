@@ -32,3 +32,12 @@
 
 ## Everything is an Object
 - PrimitiveType. will list properties and methods listed on the object for any primitive
+
+## Strings
+- 
+```C#
+     var testString = " abcdefg";
+     testString.Trim() // "abcdefg";
+     var challenge = " Text processing in C# is really great!  ";
+     challenge.Trim().Substring(24,challenge.trim().length - 25).ToUpper().Trim()
+```
