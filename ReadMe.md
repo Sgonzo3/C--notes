@@ -58,4 +58,11 @@
     sb.ToString()
     ```
 - String formatters
-    
+    - 
+    ```c#
+        var city = "Dallas";
+        var temp = 103.4f;
+        var currentDateTime = DateTime.Now;
+
+        string.Format("Welcome to {0}. The time is {1}. The temperature is {2}.", city, currentDateTime, temp) // Welcome to Dallas. The time is TIME. The temperature is 103.4.
+    ```
