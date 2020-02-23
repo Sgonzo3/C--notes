@@ -66,3 +66,15 @@
 
         string.Format("Welcome to {0}. The time is {1}. The temperature is {2}.", city, currentDateTime, temp) // Welcome to Dallas. The time is TIME. The temperature is 103.4.
     ```
+- Parsing Strings as Numbers
+    ```c#
+        var test= "15,234";
+        int.Parse(test.Replace(",","")) // 15234
+    ```
+- Math in C#
+    - Math.Abs(-5) // 5 
+        - gives absolute value
+    - Math.Pow()
+    - Math.Round() returns estimate value
+    - Math.Floor() retrurns nearest low estimate
+    - Math.Ceiling returns nearest high estimate
