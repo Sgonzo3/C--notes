@@ -78,3 +78,7 @@
     - Math.Round() returns estimate value
     - Math.Floor() retrurns nearest low estimate
     - Math.Ceiling returns nearest high estimate
+- Working with constants and enumerators
+    - variables declared with const
+    - enum
+
