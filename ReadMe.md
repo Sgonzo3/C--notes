@@ -9,6 +9,7 @@
 ## Using Statements
 
 
+# C# Essential Training - Part 1
 ## Namespace
 - classes are organized into Namespaces
 - allow dev to organize code
@@ -182,4 +183,18 @@
     - can use break and continue to alter loops
     - continue will stop current iteration of loop and go to next iteration in loop
     - break will exit entire loop 
+
+## Exception Handling
+- Adding a console project
+- Understanding runtime Exceptions
+    - occurs when mistakein your code not caught by compiler
+- debugging exceptions in your code
+    - clicking gray area left of line number will place a breakpoint in the program to debug code in execution at that point
+    - allows to inspect the values in scopeat that point
+    - allows to step through execution
+- handling errors with try catch
+- Multiple catch statements
+    - paraenthesis after catch allows to specify errors to catch
+- cleaning up with finally statement
+    - finally runs regardless of conditions
 
