@@ -81,4 +81,39 @@
 - Working with constants and enumerators
     - variables declared with const
     - enum
+- Working with Dates and Times
 
+### Working with Classes
+- Creating a Class
+- 
+
+// C# E T 2
+## Unit Testing and Test Driven Development
+- What is Unit Testing?
+    - TDD code deved in phases
+    - create or change -> Create Reproduceable Test -> Review the Results
+    - goal = 100% coveage
+- Cereate unit test project
+
+## Arrays and Collections
+- Simple Arrays
+    - strongly typed, need to be specific of types in array and be consistent.
+    - arrays have fixed size
+    ``` C#
+        var myArray = new string[4];
+        myArray[0] = "First Item";
+        myArray[5] = "outside Item"; // throws error out of bounds
+    ```
+- Resizing arrays
+    - 
+    ``` C#
+        var myArray = new string[4] { "First", "Second", "Third", "Fourth"};
+        myArray[2] // "Third"
+        myArray[5] // error
+        Array.Resize(ref myArray, 6);
+        myArray[5] = "Fourth";
+        myArray[6] = "Fifth";
+    ```
+    - ref allows to pass in things by reference and modify them directly rather than a copy of them
+- Working with simple arrays
+    - 
