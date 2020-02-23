@@ -162,3 +162,24 @@
         dictionaryWords["var"] // shorthand for variable
         dictionaryWords.add("var", "something else"); // error
     ```
+
+## Flow Control
+- Evaluating with if/else
+- The forEach Loop
+    ``` c#
+    public int ForEachLoop()
+    {
+        var numbers = new List<int> {1,3,5,7,9};
+        var sum = 0;
+        foreach(var number in numbers) 
+        {
+            sum = sum + number;
+        }
+        return sum;
+    }
+    ```
+- Break and Continue
+    - can use break and continue to alter loops
+    - continue will stop current iteration of loop and go to next iteration in loop
+    - break will exit entire loop 
+
