@@ -198,3 +198,11 @@
 - cleaning up with finally statement
     - finally runs regardless of conditions
 
+## Getting to Production
+- working with NuGet packages
+    - Nuget package manager embedded in visual studio
+- logging with NLog
+    - 
+- Final Build
+    - final build will include optimizations for performance
+
