@@ -117,3 +117,48 @@
     - ref allows to pass in things by reference and modify them directly rather than a copy of them
 - Working with simple arrays
     - 
+- MultiDimensional Arrays
+    - 
+    ``` C#
+        var multi = new int[3,4] {
+            {0,1,2,3},
+            {4,5,6,7},
+            {8,9,10,11}
+        }
+        multi[2,3]  // 11
+        multi[0,0] // 0
+        multi[1,1] // 5
+    ```
+- Managing Ordered Data Lists
+    - lists are part of a class called generic collections
+        ``` C#
+        var awesomeSauces = new list<string>();
+        awesomeSauce.Add("tobasco", "chalula")
+        awesomeSauces.[0] // tobasco
+    ```
+    - Don't need to resize or specify a size for list
+- Working with Lists
+    - 
+- testing the List implementation
+    - 
+- Introduction to LInQ
+    - Language Integration Query
+    - a set of extension classes
+    - method that will extend an existing class without subclassing it or altering codeof the class itself
+    - 
+    ``` C#
+        var listNumbers = new int[5] {
+            1,3,5,7,9
+        };
+        listNumbers.Sum() // 25
+        listNumbers.Average() // 5
+        listNumbers.Where( item => item >= 3) // 3 , 5, 7, 9
+    ```
+- Unordered data and dictionaries
+    - keys must be unique
+    ``` C#
+        var new dictionaryWords = new Dictionary<string, string>();
+        dictionaryWords.add("var", "shorthand for variable");
+        dictionaryWords["var"] // shorthand for variable
+        dictionaryWords.add("var", "something else"); // error
+    ```
